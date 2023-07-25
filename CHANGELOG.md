@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/maxsxu/demo-release-please-action/compare/v0.2.0...v0.2.1) (2023-07-25)
+
+
+### Bug Fixes
+
+* tf versions ([#7](https://github.com/maxsxu/demo-release-please-action/issues/7)) ([f59140b](https://github.com/maxsxu/demo-release-please-action/commit/f59140bbe1a5310d49a4ac9cab68e41132430d6c))
+
 ## [0.2.0](https://github.com/maxsxu/demo-release-please-action/compare/v0.1.0...v0.2.0) (2023-07-25)
 
 
