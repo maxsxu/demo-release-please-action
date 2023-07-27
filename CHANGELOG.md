@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.4.0](https://github.com/maxsxu/demo-release-please-action/compare/v0.3.0...v0.4.0) (2023-07-27)
+
+
+### Features
+
+* add new arg ([#14](https://github.com/maxsxu/demo-release-please-action/issues/14)) ([acc8c5b](https://github.com/maxsxu/demo-release-please-action/commit/acc8c5b9645643608f30f6f297fb987f81f3a956))
+
+
+### Bug Fixes
+
+* update aws version ([#12](https://github.com/maxsxu/demo-release-please-action/issues/12)) ([d87ffa5](https://github.com/maxsxu/demo-release-please-action/commit/d87ffa501f8d9daa995a3e5970bc05f2a89aac68))
+
 ## [0.3.0](https://github.com/maxsxu/demo-release-please-action/compare/v0.2.1...v0.3.0) (2023-07-27)
 
 
