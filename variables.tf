@@ -3,3 +3,7 @@ variable "sn_policy_version" {
   default     = "0.3.0"   # x-release-please-version
   type        = string
 }
+
+variable "arg1" {
+
+}
