@@ -8,16 +8,20 @@ on:
         type: string
         required: true
 
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   main:
     name: Run cherry-pick
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - shell: bash
+      - run: |
+          echo ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
+      - name: Run cherry-pick
+        shell: bash
         run: |
           printenv
-          echo ${{github}}
-          echo "prs=" ${{inputs.prs}}
           chmod +x .github/ci/cp.sh
           .github/ci/cp.sh ${GITHUB_REF_NAME} ${{inputs.prs}}
