@@ -17,9 +17,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Run cherry-pick
-        shell: bash
+      - shell: bash
         run: |
-          printenv
-          chmod +x .github/ci/cp.sh
-          .github/ci/cp.sh ${GITHUB_REF_NAME} ${{inputs.prs}}
+          ./scripts/cp.sh ${GITHUB_REF_NAME} ${{inputs.prs}}
