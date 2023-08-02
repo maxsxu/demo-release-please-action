@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.5.0](https://github.com/maxsxu/demo-release-please-action/compare/v0.4.0...v0.5.0) (2023-08-02)
+
+
+### Features
+
+* add aws ([#30](https://github.com/maxsxu/demo-release-please-action/issues/30)) ([ed54da1](https://github.com/maxsxu/demo-release-please-action/commit/ed54da1f5ce07fa46f7aae505bf8e01b1e96b8c1))
+* Create cherry-pick.yaml ([86af482](https://github.com/maxsxu/demo-release-please-action/commit/86af4823688ec37c30efd5718b16bc2e68fc598d))
+* create cp.sh ([b338b4a](https://github.com/maxsxu/demo-release-please-action/commit/b338b4a7dffa8d39c8106752a772b73f9eaaf96d))
+* update aws ([#27](https://github.com/maxsxu/demo-release-please-action/issues/27)) ([5be1648](https://github.com/maxsxu/demo-release-please-action/commit/5be1648a708d7dd0ef833bc655846bf5b58ceb71))
+
+
+### Bug Fixes
+
+* update cherry-pick.yaml ([104cca9](https://github.com/maxsxu/demo-release-please-action/commit/104cca9252a450e1979bdc3d4fab4fadbb9d3043))
+* Update cp.sh ([f2e4c36](https://github.com/maxsxu/demo-release-please-action/commit/f2e4c3677c3a1516e19da664cfd00e3520343dd7))
+* update cp.sh ([#24](https://github.com/maxsxu/demo-release-please-action/issues/24)) ([024c9bf](https://github.com/maxsxu/demo-release-please-action/commit/024c9bfb54e6589cbe26e3bd605ea962e8e51b67))
+* Update main.tf ([#15](https://github.com/maxsxu/demo-release-please-action/issues/15)) ([f7d5493](https://github.com/maxsxu/demo-release-please-action/commit/f7d5493c0d2ad7f4053d9240cc9ef83ef0086f5c))
+* Update main.tf ([#16](https://github.com/maxsxu/demo-release-please-action/issues/16)) ([2034278](https://github.com/maxsxu/demo-release-please-action/commit/2034278e979d226954ce30b032b25bcd23a5fb1d))
+* Update main.tf ([#19](https://github.com/maxsxu/demo-release-please-action/issues/19)) ([e4a0913](https://github.com/maxsxu/demo-release-please-action/commit/e4a091312b34e8c09aa5abda261db89eab9bdb1c))
+* Update main.tf ([#21](https://github.com/maxsxu/demo-release-please-action/issues/21)) ([a51e458](https://github.com/maxsxu/demo-release-please-action/commit/a51e45818b6448ed7f821ca7a5cfd201e1a58357))
+* update tf version ([#26](https://github.com/maxsxu/demo-release-please-action/issues/26)) ([5b18a39](https://github.com/maxsxu/demo-release-please-action/commit/5b18a39f2fa3b29df6b64b9ef19fa2d09187ce62))
+
 ## [0.4.0](https://github.com/maxsxu/demo-release-please-action/compare/v0.3.0...v0.4.0) (2023-07-27)
 
 
