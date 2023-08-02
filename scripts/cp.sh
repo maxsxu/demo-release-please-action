@@ -41,7 +41,6 @@ if [[ "$#" -lt 2 ]]; then
 fi
 
 gh auth status
-git status
 
 if git_status=$(git status --porcelain --untracked=no 2>/dev/null) && [[ -n "${git_status}" ]]; then
   echo "!!! Dirty tree. Clean up and try again."
@@ -115,7 +114,7 @@ ${numandtitle}
 EOF
 )
 
-  gh pr create --title="cp of ${numandtitle}" --body="${prtext}" --head "${NEWBRANCH}" --base "${BRANCH_NAME}" --repo="${REPO_ORG}/${REPO_NAME}"
+  gh pr create --title="fix(cp): ${numandtitle}" --body="${prtext}" --head "${NEWBRANCH}" --base "${BRANCH_NAME}" --repo="${REPO_ORG}/${REPO_NAME}"
 }
 
 
