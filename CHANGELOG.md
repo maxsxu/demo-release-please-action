@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.2](https://github.com/maxsxu/demo-release-please-action/compare/v0.5.1...v0.5.2) (2023-08-02)
+
+
+### Bug Fixes
+
+* **cp:** [#26](https://github.com/maxsxu/demo-release-please-action/issues/26): fix: update tf version[#27](https://github.com/maxsxu/demo-release-please-action/issues/27): feat: update aws ([#28](https://github.com/maxsxu/demo-release-please-action/issues/28)) ([3e8fd15](https://github.com/maxsxu/demo-release-please-action/commit/3e8fd15063975c637dee5ed3230ff43fa1c5cda5))
+
 ## [0.5.1](https://github.com/maxsxu/demo-release-please-action/compare/v0.5.0...v0.5.1) (2023-08-02)
 
 
