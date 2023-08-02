@@ -1,0 +1,22 @@
+name: Release / Cherry Pick
+
+on:
+  workflow_dispatch:
+    inputs:
+      prs:
+        description: "The PR numbers to be cherry-pick"
+        type: string
+        required: true
+
+jobs:
+  main:
+    name: Run cherry-pick
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - shell: bash
+        run: |
+          printenv
+          echo ${{github}}
+          chmod +x .github/ci/cp.sh
+          .github/ci/cp.sh ${{github.action_ref}}  ${{ inputs.prs }}
