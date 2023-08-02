@@ -18,5 +18,6 @@ jobs:
         run: |
           printenv
           echo ${{github}}
+          echo "prs=" ${{inputs.prs}}
           chmod +x .github/ci/cp.sh
-          .github/ci/cp.sh ${{github.action_ref}}  ${{ inputs.prs }}
+          .github/ci/cp.sh ${GITHUB_REF_NAME} ${{inputs.prs}}
