@@ -41,6 +41,7 @@ if [[ "$#" -lt 2 ]]; then
 fi
 
 gh auth status
+git status
 
 if git_status=$(git status --porcelain --untracked=no 2>/dev/null) && [[ -n "${git_status}" ]]; then
   echo "!!! Dirty tree. Clean up and try again."
