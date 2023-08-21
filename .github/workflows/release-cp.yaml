@@ -1,4 +1,4 @@
-name: Cherry Pick
+name: Release / Cherry Pick
 
 on:
   workflow_dispatch:
