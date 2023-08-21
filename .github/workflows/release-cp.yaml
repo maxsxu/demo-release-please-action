@@ -3,6 +3,10 @@ name: Release / Cherry Pick
 on:
   workflow_dispatch:
     inputs:
+      targetBranch:
+        description: "Branch name to be cherry-pick"
+        type: string
+        required: true
       prs:
         description: "PR numbers separated by blank to be cherry-pick"
         type: string
@@ -25,4 +29,4 @@ jobs:
         run: |
           git config --global user.name "${GITHUB_ACTOR}"
           git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          ./scripts/autoCherryPick.sh ${GITHUB_REF_NAME} ${{inputs.prs}}
+          ./scripts/autoCherryPick.sh ${{inputs.targetBranch}} ${{inputs.prs}}
