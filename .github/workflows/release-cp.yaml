@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       targetBranch:
-        description: "Branch name to be cherry-pick"
+        description: "Branch name"
         type: string
         required: true
       prs:
-        description: "PR numbers separated by blank to be cherry-pick"
+        description: "PR numbers separated by blank"
         type: string
         required: true
 
