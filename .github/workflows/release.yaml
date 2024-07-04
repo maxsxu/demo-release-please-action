@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     branches:
-      - release/v*
+      - master
 
 permissions:
   contents: write
@@ -16,5 +16,4 @@ jobs:
       - uses: googleapis/release-please-action@v4
         with:
           release-type: terraform-module
-          extra-files: |
-            variables.tf
+          config-file: release-please-config.json
