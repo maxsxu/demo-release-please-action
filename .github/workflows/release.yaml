@@ -15,7 +15,6 @@ jobs:
     steps:
       - uses: googleapis/release-please-action@v4
         with:
-          target-branch: release/v2.0
           release-type: terraform-module
           extra-files: |
             variables.tf
