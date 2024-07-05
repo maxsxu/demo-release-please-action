@@ -1,10 +1,8 @@
 {
-  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
-  "packages": {
-    ".": {
-      "extra-files": [
-        "variables.tf"
-      ]
+  "extra-files": [
+    {
+      "type": "generic",
+      "path": "modules/aws/variables.tf"
     }
-  }
+  ]
 }
