@@ -1,5 +1,8 @@
 {
   "extra-files": [
-    "modules/aws/variables.tf"
+    {
+      "type": "generic",
+      "path": "modules/aws/variables.tf"
+    }
   ]
 }
