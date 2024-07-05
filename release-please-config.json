@@ -3,12 +3,14 @@
   "release-type": "terraform-module",
   "include-component-in-tag": false,
   "extra-files": [
-    "./modules/aws/variables.tf"
+    "variables.tf",
+    "modules/aws/variables.tf"
   ],
   "packages": {
     ".": {
       "extra-files": [
-        "./modules/aws/variables.tf"
+        "variables.tf",
+        "modules/aws/variables.tf"
       ]
     }
   }
