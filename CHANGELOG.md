@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.7.0](https://github.com/maxsxu/demo-release-please-action/compare/v0.6.0...v0.7.0) (2024-07-05)
+
+
+### Features
+
+* Update README.md ([#46](https://github.com/maxsxu/demo-release-please-action/issues/46)) ([3a987c2](https://github.com/maxsxu/demo-release-please-action/commit/3a987c2b03b2c12a0cb1e3cb0de736d04544ed8f))
+* Update README.md ([#47](https://github.com/maxsxu/demo-release-please-action/issues/47)) ([90b4220](https://github.com/maxsxu/demo-release-please-action/commit/90b4220a915b2c41ea2699086b01508a73a07350))
+
+
+### Bug Fixes
+
+* Update README.md ([5fa94fe](https://github.com/maxsxu/demo-release-please-action/commit/5fa94fe88fb5dccb66888dda7c8972f3b7e0ead4))
+* Update README.md ([#44](https://github.com/maxsxu/demo-release-please-action/issues/44)) ([10431fa](https://github.com/maxsxu/demo-release-please-action/commit/10431fa888018941a0be9f4aec4124c358270344))
+* Update variables.tf ([81c1e1d](https://github.com/maxsxu/demo-release-please-action/commit/81c1e1dac6ad0043a0db02107c3683e0f21fd453))
+
 ## [0.6.0](https://github.com/maxsxu/demo-release-please-action/compare/v0.5.0...v0.6.0) (2024-07-05)
 
 
