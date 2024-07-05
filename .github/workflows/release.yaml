@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - release/v*
 
 permissions:
   contents: write
@@ -15,5 +16,5 @@ jobs:
     steps:
       - uses: googleapis/release-please-action@v4
         with:
+          target-branch: ${{ github.ref_name }}
           release-type: terraform-module
-          config-file: release-please-config.json
