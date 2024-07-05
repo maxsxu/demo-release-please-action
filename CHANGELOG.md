@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.2](https://github.com/maxsxu/demo-release-please-action/compare/v0.7.1...v0.7.2) (2024-07-05)
+
+
+### Bug Fixes
+
+* Update release-please-config.json ([a4fa1d3](https://github.com/maxsxu/demo-release-please-action/commit/a4fa1d33e69b616bf1d251ac5893217dcfb462a6))
+
 ## [0.7.1](https://github.com/maxsxu/demo-release-please-action/compare/v0.7.0...v0.7.1) (2024-07-05)
 
 
