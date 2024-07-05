@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.7.1](https://github.com/maxsxu/demo-release-please-action/compare/v0.7.0...v0.7.1) (2024-07-05)
+
+
+### Bug Fixes
+
+* trigger ([ca1c813](https://github.com/maxsxu/demo-release-please-action/commit/ca1c813fcd5274b785f1e04659184d92a26f615a))
+* Update README.md ([24e9604](https://github.com/maxsxu/demo-release-please-action/commit/24e9604227607556558693436e84f2beb4eaab90))
+* Update README.md ([fc22456](https://github.com/maxsxu/demo-release-please-action/commit/fc2245685551253f7c41543217b84b0144b3eea9))
+* Update README.md ([fa91daa](https://github.com/maxsxu/demo-release-please-action/commit/fa91daade449d13d8768247fbf1d83439bea3c68))
+* Update release-please-config.json ([15cea84](https://github.com/maxsxu/demo-release-please-action/commit/15cea84411aecc77296f155ca645691b8777e868))
+* Update release-please-config.json ([cad52b2](https://github.com/maxsxu/demo-release-please-action/commit/cad52b21732e5437be41b7a6f6a661c9f21ea07d))
+* Update release-please-config.json ([b72896e](https://github.com/maxsxu/demo-release-please-action/commit/b72896e5b25a8a4204ff4b66994d001e8f06da58))
+* Update release-please-config.json ([3546e90](https://github.com/maxsxu/demo-release-please-action/commit/3546e90078d18bc140ccc4457e84bb98870ab646))
+* Update release.yaml ([8c93362](https://github.com/maxsxu/demo-release-please-action/commit/8c9336233d441847a463194dfc8800a6b29da416))
+* Update release.yaml ([b26b666](https://github.com/maxsxu/demo-release-please-action/commit/b26b6662d68e61cd31a7c8e829aff78296891d15))
+* use block ([c608456](https://github.com/maxsxu/demo-release-please-action/commit/c608456a460d9bae6dfe3ee7d3a7dc41d09f368d))
+* use generic ([7fea1f3](https://github.com/maxsxu/demo-release-please-action/commit/7fea1f3d91eee7311af460b0d9e8e8af1a5fe9de))
+
 ## [0.7.0](https://github.com/maxsxu/demo-release-please-action/compare/v0.6.0...v0.7.0) (2024-07-05)
 
 
