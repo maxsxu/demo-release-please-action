@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.1](https://github.com/maxsxu/demo-release-please-action/compare/v0.7.0...v0.7.1) (2024-07-05)
+
+
+### Bug Fixes
+
+* use generic ([7fea1f3](https://github.com/maxsxu/demo-release-please-action/commit/7fea1f3d91eee7311af460b0d9e8e8af1a5fe9de))
+
 ## [0.7.0](https://github.com/maxsxu/demo-release-please-action/compare/v0.6.0...v0.7.0) (2024-07-05)
 
 
