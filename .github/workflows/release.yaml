@@ -13,6 +13,9 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    environment: test
+    env:
+      ACTIONS_RUNNER_DEBUG: true
     steps:
       - uses: googleapis/release-please-action@v4
         with:
