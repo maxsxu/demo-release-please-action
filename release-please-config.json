@@ -1,7 +1,11 @@
 {
-  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
-  "release-type": "simple",
-  "extra-files": [
-    "modules/aws/variables.tf"
-  ]
+  "release-type": "terraform-module",
+  "packages": {
+    ".": {
+      "release-type": "go",
+      "extra-files": [
+        "modules/aws/variables.tf"
+      ]
+    }
+  }
 }
