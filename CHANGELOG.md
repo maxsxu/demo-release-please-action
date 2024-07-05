@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.3](https://github.com/maxsxu/demo-release-please-action/compare/v0.7.2...v0.7.3) (2024-07-05)
+
+
+### Bug Fixes
+
+* Update variables.tf ([eb013b8](https://github.com/maxsxu/demo-release-please-action/commit/eb013b8270f19636197a48fa53f10b9a35738f57))
+
 ## [0.7.2](https://github.com/maxsxu/demo-release-please-action/compare/v0.7.1...v0.7.2) (2024-07-05)
 
 
